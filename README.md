@@ -137,7 +137,7 @@ services.AddScoped<IClienteRepository, ClienteRepository>();
 
 ## 🧪 Testes Automatizados
 
-* Use **xUnit** ou **NUnit**
+* Use **xUnit**, **NUnit** ou **MSTest**
 * Nomeie os testes com o padrão: `Metodo_Cenario_ResultadoEsperado`
 
 ```csharp
