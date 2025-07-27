@@ -16,7 +16,7 @@
 │   ├── /Controllers    # Controladores (Web APIs, MVC)
 │   └── /Utils          # Utilitários e helpers
 │
-├── /tests              # Testes automatizados (xUnit/NUnit)
+├── /tests              # Testes automatizados (xUnit, NUnit ou MSTest)
 ├── /docs               # Documentação
 ├── .gitignore
 ├── README.md
@@ -156,13 +156,13 @@ public void CalcularDesconto_ClienteVip_DeveRetornarDescontoMaior()
 
 ## 🧰 Ferramentas Recomendadas
 
-| Propósito         | Ferramenta           |
-| ----------------- | -------------------- |
-| Testes            | xUnit / NUnit        |
-| Logging           | Serilog / NLog       |
-| DI e Configuração | Microsoft.Extensions |
-| Swagger           | Swashbuckle          |
-| Análise Estática  | SonarQube / Roslyn   |
+| Propósito         | Ferramenta            |
+| ----------------- | --------------------  |
+| Testes            | xUnit, NUnit ou MSTest|
+| Logging           | Serilog / NLog        |
+| DI e Configuração | Microsoft.Extensions  |
+| Swagger           | Swashbuckle           |
+| Análise Estática  | SonarQube / Roslyn    |
 
 ---
 
